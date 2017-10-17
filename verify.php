@@ -17,7 +17,7 @@
         
         $error = '';
         
-        if($_POST['btn_verify']) {
+        if(isset($_POST['btn_verify'])) {
             
             $oneCode = $_POST['verification_code'];
             
